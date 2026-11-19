@@ -1,0 +1,25 @@
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Raw and processed datasets
+dataset/raw/*
+dataset/processed/*
+!dataset/raw/.gitkeep
+!dataset/processed/.gitkeep
+
+# Trained models
+models/*.pkl
+models/*.joblib
+
+# Environment variables
+.env
+.env.*
+
+# Editor
+.vscode/
