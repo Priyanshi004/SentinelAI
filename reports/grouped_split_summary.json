@@ -1,0 +1,26 @@
+{
+    "method": "Deterministic 64-bit feature fingerprint assignment",
+    "fingerprint_features": 70,
+    "test_assignment_rule": "fingerprint % 5 == 0",
+    "total_records": 2827876,
+    "train_records": 2258483,
+    "test_records": 569393,
+    "overall_label_counts": {
+        "0": 2271320,
+        "1": 556556
+    },
+    "train_label_counts": {
+        "0": 1814910,
+        "1": 443573
+    },
+    "test_label_counts": {
+        "0": 456410,
+        "1": 112983
+    },
+    "source_partitions_processed": 114,
+    "train_percentage": 79.865,
+    "test_percentage": 20.135,
+    "output_train_directory": "C:\\Users\\Dell\\Desktop\\SentinelAI\\dataset\\grouped_v1\\train",
+    "output_test_directory": "C:\\Users\\Dell\\Desktop\\SentinelAI\\dataset\\grouped_v1\\test",
+    "interpretation": "Identical feature fingerprints are deterministically assigned to the same split. This prevents matching fingerprints from being distributed across training and testing. The split is approximately 80/20, not guaranteed to be exactly stratified. Fingerprint collisions are theoretically possible."
+}

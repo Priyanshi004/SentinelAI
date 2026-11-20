@@ -1,0 +1,15 @@
+{
+    "analysis": "Exact Conflicting Feature Fingerprint Verification",
+    "fingerprint_method": "pandas hash_pandas_object (64-bit)",
+    "verification_method": "Exact grouping using all 70 original feature values",
+    "training_records_scanned": 2262282,
+    "candidate_fingerprint_count": 512,
+    "matching_records_collected": 4933,
+    "exact_feature_groups_found": 512,
+    "verified_conflicting_feature_groups": 512,
+    "records_in_verified_conflicting_groups": 4933,
+    "benign_records_in_verified_conflicts": 533,
+    "attack_records_in_verified_conflicts": 4400,
+    "possible_hash_collision_fingerprints": 0,
+    "interpretation": "Verified conflicts represent identical feature values associated with both binary labels. Possible hash collisions represent one 64-bit fingerprint mapping to multiple distinct feature groups. Results apply to the candidate fingerprints screened by the earlier analysis."
+}

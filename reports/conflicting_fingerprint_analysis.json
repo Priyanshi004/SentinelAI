@@ -1,0 +1,13 @@
+{
+    "analysis": "Conflicting Feature Fingerprints",
+    "fingerprint_method": "pandas hash_pandas_object (64-bit)",
+    "training_records": 2262282,
+    "unique_fingerprints": 2032392,
+    "conflicting_fingerprint_groups": 512,
+    "records_in_conflicting_groups": 4933,
+    "benign_records_in_conflicting_groups": 533,
+    "attack_records_in_conflicting_groups": 4400,
+    "conflicting_record_percentage": 0.218054,
+    "interpretation": "Groups sharing a 64-bit feature fingerprint but having both binary labels require investigation. Hash matches are screening signals, not cryptographic proof of exact feature equality.",
+    "features_checked": 70
+}

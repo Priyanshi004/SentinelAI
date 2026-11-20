@@ -1,0 +1,38 @@
+{
+    "validation": "Duplicate-Aware Grouped Split",
+    "fingerprint_features": 70,
+    "assignment_rule": "fingerprint % 5 == 0",
+    "total_records": 2827876,
+    "train": {
+        "split": "train",
+        "partitions": 114,
+        "records": 2258483,
+        "assignment_violations": 0,
+        "invalid_targets": 0,
+        "missing_feature_values": 0,
+        "infinite_feature_values": 0,
+        "label_counts": {
+            "0": 1814910,
+            "1": 443573
+        }
+    },
+    "test": {
+        "split": "test",
+        "partitions": 114,
+        "records": 569393,
+        "assignment_violations": 0,
+        "invalid_targets": 0,
+        "missing_feature_values": 0,
+        "infinite_feature_values": 0,
+        "label_counts": {
+            "0": 456410,
+            "1": 112983
+        }
+    },
+    "total_assignment_violations": 0,
+    "total_invalid_targets": 0,
+    "total_missing_feature_values": 0,
+    "total_infinite_feature_values": 0,
+    "validation_passed": true,
+    "interpretation": "Zero assignment violations confirm that every matching 64-bit feature fingerprint follows the same split rule. This prevents matching fingerprints from crossing splits. Theoretical hash collisions remain a limitation."
+}

@@ -1,25 +1,29 @@
+@'
 
-# Python
+# Ignore all Python cache files
 __pycache__/
-*.pyc
-.venv/
+*.py[cod]
 
-# Jupyter
+# Ignore Jupyter temporary files
 .ipynb_checkpoints/
+Untitled*.ipynb
 
-# Raw and processed datasets
-dataset/raw/*
-dataset/processed/*
-!dataset/raw/.gitkeep
-!dataset/processed/.gitkeep
+# Ignore all generated datasets
+dataset/raw/
+dataset/processed/
+dataset/prepared/
+dataset/grouped_v1/
 
-# Trained models
-models/*.pkl
+# Ignore trained machine learning models
 models/*.joblib
+models/*.pkl
 
-# Environment variables
-.env
-.env.*
+# Ignore generated databases
+*.db
+*.sqlite
+*.sqlite3
 
-# Editor
-.vscode/
+# Ignore generated API test payloads
+backend/*_test_request.json
+
+'@ | Add-Content .\.gitignore

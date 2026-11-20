@@ -1,0 +1,26 @@
+{
+    "model": "Random Forest - Duplicate-Aware Grouped Split",
+    "training_records": 100000,
+    "testing_records": 569393,
+    "accuracy": 0.9984457132419963,
+    "precision": 0.9962635689114767,
+    "recall": 0.9959020383597532,
+    "f1_score": 0.996082770831028,
+    "roc_auc": 0.9998727067484051,
+    "false_positive_rate": 0.0009246072610153152,
+    "confusion_matrix": {
+        "true_negative": 455988,
+        "false_positive": 422,
+        "false_negative": 463,
+        "true_positive": 112520
+    },
+    "training_seconds": 11.4286789894104,
+    "training_sample": {
+        "benign_sampled": 80000,
+        "attack_sampled": 20000,
+        "total_sampled": 100000,
+        "benign_available": 1814910,
+        "attack_available": 443573
+    },
+    "split_type": "duplicate_aware_grouped_split"
+}

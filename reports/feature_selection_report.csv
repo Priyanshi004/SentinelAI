@@ -1,0 +1,79 @@
+﻿Feature,Sample_Dtype,Numeric_Conversion_Rate,Included,Reason
+Destination Port,int64,1.0,True,Numeric feature
+Flow Duration,int64,1.0,True,Numeric feature
+Total Fwd Packets,int64,1.0,True,Numeric feature
+Total Backward Packets,int64,1.0,True,Numeric feature
+Total Length of Fwd Packets,int64,1.0,True,Numeric feature
+Total Length of Bwd Packets,int64,1.0,True,Numeric feature
+Fwd Packet Length Max,int64,1.0,True,Numeric feature
+Fwd Packet Length Min,int64,1.0,True,Numeric feature
+Fwd Packet Length Mean,float64,1.0,True,Numeric feature
+Fwd Packet Length Std,float64,1.0,True,Numeric feature
+Bwd Packet Length Max,int64,1.0,True,Numeric feature
+Bwd Packet Length Min,int64,1.0,True,Numeric feature
+Bwd Packet Length Mean,float64,1.0,True,Numeric feature
+Bwd Packet Length Std,float64,1.0,True,Numeric feature
+Flow Bytes/s,float64,1.0,True,Numeric feature
+Flow Packets/s,float64,1.0,True,Numeric feature
+Flow IAT Mean,float64,1.0,True,Numeric feature
+Flow IAT Std,float64,1.0,True,Numeric feature
+Flow IAT Max,int64,1.0,True,Numeric feature
+Flow IAT Min,int64,1.0,True,Numeric feature
+Fwd IAT Total,int64,1.0,True,Numeric feature
+Fwd IAT Mean,float64,1.0,True,Numeric feature
+Fwd IAT Std,float64,1.0,True,Numeric feature
+Fwd IAT Max,int64,1.0,True,Numeric feature
+Fwd IAT Min,int64,1.0,True,Numeric feature
+Bwd IAT Total,int64,1.0,True,Numeric feature
+Bwd IAT Mean,float64,1.0,True,Numeric feature
+Bwd IAT Std,float64,1.0,True,Numeric feature
+Bwd IAT Max,int64,1.0,True,Numeric feature
+Bwd IAT Min,int64,1.0,True,Numeric feature
+Fwd PSH Flags,int64,1.0,True,Numeric feature
+Bwd PSH Flags,int64,0.0,False,Constant column
+Fwd URG Flags,int64,1.0,True,Numeric feature
+Bwd URG Flags,int64,0.0,False,Constant column
+Fwd Header Length,int64,1.0,True,Numeric feature
+Bwd Header Length,int64,1.0,True,Numeric feature
+Fwd Packets/s,float64,1.0,True,Numeric feature
+Bwd Packets/s,float64,1.0,True,Numeric feature
+Min Packet Length,int64,1.0,True,Numeric feature
+Max Packet Length,int64,1.0,True,Numeric feature
+Packet Length Mean,float64,1.0,True,Numeric feature
+Packet Length Std,float64,1.0,True,Numeric feature
+Packet Length Variance,float64,1.0,True,Numeric feature
+FIN Flag Count,int64,1.0,True,Numeric feature
+SYN Flag Count,int64,1.0,True,Numeric feature
+RST Flag Count,int64,1.0,True,Numeric feature
+PSH Flag Count,int64,1.0,True,Numeric feature
+ACK Flag Count,int64,1.0,True,Numeric feature
+URG Flag Count,int64,1.0,True,Numeric feature
+CWE Flag Count,int64,1.0,True,Numeric feature
+ECE Flag Count,int64,1.0,True,Numeric feature
+Down/Up Ratio,int64,1.0,True,Numeric feature
+Average Packet Size,float64,1.0,True,Numeric feature
+Avg Fwd Segment Size,float64,1.0,True,Numeric feature
+Avg Bwd Segment Size,float64,1.0,True,Numeric feature
+Fwd Header Length.1,int64,1.0,True,Numeric feature
+Fwd Avg Bytes/Bulk,int64,0.0,False,Constant column
+Fwd Avg Packets/Bulk,int64,0.0,False,Constant column
+Fwd Avg Bulk Rate,int64,0.0,False,Constant column
+Bwd Avg Bytes/Bulk,int64,0.0,False,Constant column
+Bwd Avg Packets/Bulk,int64,0.0,False,Constant column
+Bwd Avg Bulk Rate,int64,0.0,False,Constant column
+Subflow Fwd Packets,int64,1.0,True,Numeric feature
+Subflow Fwd Bytes,int64,1.0,True,Numeric feature
+Subflow Bwd Packets,int64,1.0,True,Numeric feature
+Subflow Bwd Bytes,int64,1.0,True,Numeric feature
+Init_Win_bytes_forward,int64,1.0,True,Numeric feature
+Init_Win_bytes_backward,int64,1.0,True,Numeric feature
+act_data_pkt_fwd,int64,1.0,True,Numeric feature
+min_seg_size_forward,int64,1.0,True,Numeric feature
+Active Mean,float64,1.0,True,Numeric feature
+Active Std,float64,1.0,True,Numeric feature
+Active Max,int64,1.0,True,Numeric feature
+Active Min,int64,1.0,True,Numeric feature
+Idle Mean,float64,1.0,True,Numeric feature
+Idle Std,float64,1.0,True,Numeric feature
+Idle Max,int64,1.0,True,Numeric feature
+Idle Min,int64,1.0,True,Numeric feature

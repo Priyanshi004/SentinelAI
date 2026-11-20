@@ -1,0 +1,16 @@
+{
+    "audit": "Train/Test Feature Fingerprint Overlap",
+    "fingerprint_method": "pandas hash_pandas_object (64-bit)",
+    "features_checked": 70,
+    "training_records": 2262282,
+    "unique_training_fingerprints": 2032392,
+    "repeated_training_rows": 229890,
+    "training_conflicting_label_groups": 512,
+    "testing_records": 565594,
+    "test_records_with_training_feature_match": 75367,
+    "test_feature_overlap_percentage": 13.325283,
+    "overlaps_with_same_training_label": 75187,
+    "overlaps_with_opposite_label_only": 180,
+    "overlaps_with_ambiguous_training_labels": 1001,
+    "interpretation": "Feature fingerprint overlap is a duplicate-screening signal. It is not a cryptographic proof of exact equality."
+}
